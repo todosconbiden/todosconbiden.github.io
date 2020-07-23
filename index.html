@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Biden Graphic Generator</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+</head>
+
+<body>
+    <section class="page-header">
+        <h1 class="project-name">BIDEN GRAPHIC GENERATOR</h1>
+        <h2 class="project-tagline">A tool to help you easily create state-specific Joe Biden graphics!</h2>
+    </section>
+
+    <section class="main-content">
+        <button type="button" class="collapsible">List of graphics (click to expand)</button>
+        <div class="content">
+            <table style="width:100%; border:0">
+                <tr>
+                    <td align="center" valign="top">
+                        <img src="thumbs/IgnoreThePolls_thumb.jpg" alt="IgnoreThePolls_thumb.jpg" width="75%"/>
+                        <br />"Ignore the Polls"
+                    </td>
+                    <td align="center" valign="top">
+                        <img src="thumbs/LifeOfMyLove_thumb.jpg" alt="LifeOfMyLove_thumb.jpg" width="75%"/>
+                        <br />"Life of My Love"
+                    </td>
+                    <td align="center" valign="top">
+                        <img src="thumbs/BringItAll_thumb.jpg" alt="BringItAll_thumb.jpg" width="75%"/>
+                        <br />"Bring It All"
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top">
+                        <img src="thumbs/ThisIsTheUSA_thumb.jpg" alt="ThisIsTheUSA_thumb.jpg" width="75%"/>
+                        <br />"This is the USA"
+                    </td>
+                    <td align="center" valign="top">
+                        <img src="thumbs/HopeOverFear_thumb.jpg" alt="HopeOverFear_thumb.jpg" width="75%"/>
+                        <br />"Hope Over Fear"
+                    </td>
+                    <td align="center" valign="top">
+                        <img src="thumbs/VoteForDecency_thumb.jpg" alt="VoteForDecency_thumb.jpg" width="75%"/>
+                        <br />"Vote For Decency"
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top">
+                        <img src="thumbs/TransformOurNation_thumb.jpg" alt="TransformOurNation_thumb.jpg" width="75%"/>
+                        <br />"Transform Our Nation"
+                    </td>
+                    <td align="center" valign="top">
+                        <img src="thumbs/ACampaignForEveryone_thumb.jpg" alt="ACampaignForEveryone_thumb.jpg" width="75%"/>
+                        <br />"A Campaign for Everyone"
+                    </td>
+                    <td align="center" valign="top">
+                        <img src="thumbs/LeadersListen_thumb.jpg" alt="LeadersListen_thumb.jpg" width="75%"/>
+                        <br />"Leaders Listen"
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div id="pluginConfig">
+            <div class="imageConfig">
+                <h3>Select a graphic and state, and then click "Submit".</h3>
+                <form id="watermarkConfig">
+                    <p>
+                        <label><span>Graphic:</span>
+                            <select name="graphic" id="graphic">
+                                <option value="images/IgnoreThePolls.jpg">Ignore the Polls</option>
+                                <option value="images/LifeOfMyLove.jpg">Life of My Love</option>
+                                <option value="images/BringItAll.jpg">Bring It All</option>
+                                <option value="images/ThisIsTheUSA.jpg">This is the USA</option>
+                                <option value="images/HopeOverFear.jpg">Hope Over Fear</option>
+                                <option value="images/VoteForDecency.jpg">Vote for Decency</option>
+                                <option value="images/TransformOurNation.jpg">Transform Our Nation</option>
+                                <option value="images/ACampaignForEveryone.jpg">A Campaign for Everyone</option>
+                                <option value="images/LeadersListen.jpg">Leaders Listen</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p>
+                        <label><span>State:</span>
+                            <select name="path" id="path">
+                                <option value="BidenPresident.png">Select...</option>
+                                <option value="JoeForAlabama.png">Alabama</option>
+                                <option value="JoeForAlaska.png">Alaska</option>
+                                <option value="JoeForArizona.png">Arizona</option>
+                                <option value="JoeForArkansas.png">Arkansas</option>
+                                <option value="JoeForCalifornia.png">California</option>
+                                <option value="JoeForColorado.png">Colorado</option>
+                                <option value="JoeForConnecticut.png">Connecticut</option>
+                                <option value="JoeForDelaware.png">Delaware</option>
+                                <option value="JoeForFlorida.png">Florida</option>
+                                <option value="JoeForGeorgia.png">Georgia</option>
+                                <option value="JoeForHawaii.png">Hawaii</option>
+                                <option value="JoeForIdaho.png">Idaho</option>
+                                <option value="JoeForIllinois.png">Illinois</option>
+                                <option value="JoeForIndiana.png">Indiana</option>
+                                <option value="JoeForIowa.png">Iowa</option>
+                                <option value="JoeForKansas.png">Kansas</option>
+                                <option value="JoeForKentucky.png">Kentucky</option>
+                                <option value="JoeForLouisiana.png">Louisiana</option>
+                                <option value="JoeForMaine.png">Maine</option>
+                                <option value="JoeForMaryland.png">Maryland</option>
+                                <option value="JoeForMassachusetts.png">Massachusetts</option>
+                                <option value="JoeForMichigan.png">Michigan</option>
+                                <option value="JoeForMinnesota.png">Minnesota</option>
+                                <option value="JoeForMississippi.png">Mississippi</option>
+                                <option value="JoeForMissouri.png">Missouri</option>
+                                <option value="JoeForMontana.png">Montana</option>
+                                <option value="JoeForNebraska.png">Nebraska</option>
+                                <option value="JoeForNevada.png">Nevada</option>
+                                <option value="JoeForNewHampshire.png">New Hampshire</option>
+                                <option value="JoeForNewJersey.png">New Jersey</option>
+                                <option value="JoeForNewMexico.png">New Mexico</option>
+                                <option value="JoeForNewYork.png">New York</option>
+                                <option value="JoeForNorthCarolina.png">North Carolina</option>
+                                <option value="JoeForNorthDakota.png">North Dakota</option>
+                                <option value="JoeForOhio.png">Ohio</option>
+                                <option value="JoeForOklahoma.png">Oklahoma</option>
+                                <option value="JoeForOregon.png">Oregon</option>
+                                <option value="JoeForPennsylvania.png">Pennsylvania</option>
+                                <option value="JoeForRhodeIsland.png">Rhode Island</option>
+                                <option value="JoeForSouthCarolina.png">South Carolina</option>
+                                <option value="JoeForSouthDakota.png">South Dakota</option>
+                                <option value="JoeForTennessee.png">Tennessee</option>
+                                <option value="JoeForTexas.png">Texas</option>
+                                <option value="JoeForUtah.png">Utah</option>
+                                <option value="JoeForVermont.png">Vermont</option>
+                                <option value="JoeForVirginia.png">Virginia</option>
+                                <option value="JoeForWashington.png">Washington</option>
+                                <option value="JoeForWashingtonDC.png">Washington, D.C.</option>
+                                <option value="JoeForWestVirginia.png">West Virginia</option>
+                                <option value="JoeForWisconsin.png">Wisconsin</option>
+                                <option value="JoeForWyoming.png">Wyoming</option>
+                                
+                            </select>
+                        </label>
+                    </p>
+                    <p class="buttons">
+                        <input type="submit" id="submit" value="Submit">
+                    </p>
+                </form>
+            </div>
+            <div id="withWatermark" class="imageWrap">
+                <img class="displayImage" id="imageDemo" src="images/IgnoreThePolls.jpg" alt="">
+            </div>
+            Desktop users: right-click the image and select "Save image as..."
+            <br>Mobile users: tap and hold on the image and select "Save Image"
+        </div>
+
+        <footer class="site-footer">
+            <span class="site-footer-owner">This tool and all associated graphics were created by <a href="https://twitter.com/_derekchan" target="_blank">Derek Chan</a>.</span>
+
+            <span class="site-footer-credits">Built with <a href="https://github.com/lelinhtinh/watermark" target="_blank">Watermark</a> (MIT License © <a
+                href="https://github.com/lelinhtinh" target="_blank">lelinhtinh</a>).<br>This page was generated by <a href="https://pages.github.com" target="_blank">GitHub
+                    Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme" target="_blank">Cayman theme</a> by <a
+                    href="https://twitter.com/jasonlong" target="_blank">Jason Long</a>.</span>
+        </footer>
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://unpkg.com/watermark@1.0.2/dist/jquery.watermark.min.js" type="text/javascript"></script>
+    <script src="javascripts/main.js" type="text/javascript"></script>
+    
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            }
+          });
+        }
+    </script>
+
+</body>
+
+</html>
