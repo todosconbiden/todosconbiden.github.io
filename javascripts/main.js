@@ -81,7 +81,4 @@ $(function() {
   }
 
   watermarkCreate();
-
-  gtag('event', 'Generate graphic (?)');
-
 });
